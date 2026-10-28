@@ -1,0 +1,15 @@
+Ekşi Inline Images icon
+
+Created with the built-in image_gen tool. Resized with macOS sips.
+icon-source.png is the original transparent generated artwork.
+icon-{16,32,48,128}.png are the extension assets declared in manifest.json.
+
+Reference inspiration:
+https://commons.wikimedia.org/wiki/File:Ek%C5%9Fi_S%C3%B6zl%C3%BCk_ikon.svg
+
+Generation prompt:
+Use case: logo-brand
+Asset type: production browser extension icon, square 1024 x 1024 image with true transparent background.
+Primary request: Create one polished minimal flat icon for 'Ekşi Inline Images', a browser extension that reveals photos inline on Ekşi Sözlük. Inspiration is Ekşi Sözlük's green upright droplet mark. Use a single large green upright teardrop as the outer silhouette and integrate a bold white photo landscape symbol in its lower rounded body, so it reads as a droplet and image viewer together. The photo symbol is a simple white rounded rectangular frame with one small white sun dot in the upper right and two bold white mountain peaks at the bottom; green negative space inside. Maintain generous separation and broad strokes so the icon survives at 16 pixels.
+Composition: one centered icon, teardrop tip at top center, icon occupies about 86% of square canvas, generous clear transparent margin, nothing else. All elements unified within the droplet silhouette.
+Style: crisp flat vector-like geometry, smooth edges, green #81B14B, white detail. Professional, restrained, highly legible at tiny sizes. No text, letters, badges, shadows, gradients, 3D, glossy effects, outlines outside the droplet, mockup, grid, checkerboard, or additional icons.

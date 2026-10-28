@@ -1,0 +1,13 @@
+Ekşi Inline Images icon — richer second version
+
+Created by editing icon-source.png with the built-in image_gen tool.
+Original generated output: icon-source-v2.png.
+Extension sizes: icon-v2-{16,32,48,128}.png, resized with macOS sips.
+The original version is preserved alongside these assets.
+
+Generation prompt:
+Use case: logo-brand
+Asset type: finished browser extension icon on a genuinely transparent background, square canvas.
+Input image: existing Ekşi Inline Images icon, edit target and identity reference.
+Primary request: Redesign this bare flat icon into a much fancier, beautifully crafted premium app icon. Keep the recognizable upright green teardrop silhouette inspired by Ekşi Sözlük, and retain the clear image-viewer meaning. Give the droplet a rich lime-to-forest-green gradient, softly beveled dimensional edges, an elegant curved glossy highlight near the upper left, and restrained lighting depth. Replace the plain white landscape outline with a small stack of two overlapping rounded photo cards placed across the lower-middle of the droplet: a slightly rotated pale green rear card and a prominent creamy-white front card with thick rounded edges, a rich emerald/teal landscape of two bold mountain shapes and a small warm golden sun. The cards should feel integrated into the droplet with tasteful soft contact shadows. Add at most one tiny four-point light glint on the droplet shoulder for polish. This is a refined modern illustrated app icon, lush colors and subtle tactile depth, carefully composed, charming and memorable, not a photoreal object.
+Composition: one centered compact unified symbol, fills 88% of square canvas, all parts and subtle shadows within canvas, transparent outside. Large bold shapes readable at small sizes, front photo card occupies much of lower body. The teardrop top remains visible and uncluttered. Preserve recognizable green droplet identity, photo motif, and genuine outer transparency. No words, letters, numbers, watermark, mockup, extra background tile, surrounding scene, checkerboard pattern, excessive sparkles, hairline details, or separate floating objects.

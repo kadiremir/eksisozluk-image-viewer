@@ -1,0 +1,13 @@
+Ekşi Inline Images icon — photographic third version
+
+Created by editing icon-source-v2.png with the built-in image_gen tool.
+Original generated output: icon-source-v3.png.
+Extension sizes: icon-v3-{16,32,48,128}.png, resized with macOS sips.
+Earlier versions are preserved alongside these assets.
+
+Generation prompt:
+Use case: precise-object-edit
+Asset type: finished transparent browser extension icon.
+Input image: edit target, the current glossy green droplet with overlapping framed image cards.
+Primary request: Change ONLY the picture inside the front white photo frame. Replace the generic green triangular mountain placeholder and yellow sun disc with an exquisite photorealistic travel photograph: a luminous turquoise alpine lake, dramatic rugged snow-capped mountains, a dark evergreen shoreline, delicate pink and amber sunset clouds, warm sunlight catching the peaks, realistic reflections on still water. The miniature photo should have the color richness and photographic detail of a premium landscape photograph, with a clear readable composition and beautiful natural lighting. It must visibly look like a real photographic landscape, not an illustration, geometric icon, or placeholder. Fit the photograph precisely inside the existing rounded rectangular opening, matching its tilt and perspective. The photo fills the opening edge to edge.
+Invariants: preserve the glossy lime-to-emerald droplet silhouette, its proportions, highlights and shading, the exact placement/size/tilt of both photo cards, the creamy-white beveled front frame, the pale green rear card, and their shadows. Preserve the square composition and genuine transparent background outside the icon. Do not add any background, lettering, watermark, labels, other objects, or new decorative elements. Only replace the contents of the framed picture.

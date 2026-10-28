@@ -1,0 +1,48 @@
+html:not(.eksi-inline-hidden) #entry-item-list .content.eksi-inline-expanded {
+  display: block !important;
+  height: auto !important;
+  max-height: none !important;
+  overflow: visible !important;
+  -webkit-line-clamp: unset !important;
+}
+.eksi-inline-toolbar {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 10px 0;
+  margin: 8px 0 16px;
+  border-bottom: 1px solid #8885;
+  font: 13px/1.5 system-ui, sans-serif;
+}
+.eksi-inline-toolbar button,
+.eksi-inline-status button,
+.eksi-inline-album-controls button {
+  border: 1px solid #8888;
+  border-radius: 5px;
+  padding: 5px 10px;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+}
+.eksi-inline-toolbar button:hover,
+.eksi-inline-status button:hover,
+.eksi-inline-album-controls button:hover { background: #8882; }
+#entry-item-list .content .eksi-inline-photo {
+  display: block !important;
+  margin: 10px 0 16px;
+  width: 100%;
+  height: auto !important;
+  max-height: none !important;
+  max-width: 100%;
+  overflow: visible !important;
+  aspect-ratio: auto !important;
+}
+.eksi-inline-status { display: block; padding: 14px 0; opacity: .75; font-size: 12px; }
+.eksi-inline-image { display: block; max-width: 100%; margin: 10px 0; }
+.eksi-inline-album-controls { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; font: 12px/1.5 system-ui, sans-serif; }
+.eksi-inline-original { display: inline-block; margin-top: 5px; font-size: 12px; }
+.eksi-inline-album-controls button[hidden] { display: none !important; }
+.eksi-inline-status[hidden],
+.eksi-inline-hidden #entry-item-list .content .eksi-inline-photo { display: none !important; }

@@ -1,0 +1,51 @@
+Ekşisözlük Görsel — Chrome Web Store submission
+
+PRIVACY PRACTICES
+
+Single purpose description:
+Display inline image previews for image links in Ekşisözlük entries so users can view linked photos while reading the page.
+
+Host permissions justification:
+Access to https://eksisozluk.com/* and https://www.eksisozluk.com/* is used by the content script to detect supported image links in entries and display inline previews. Access to https://ibb.co/*, https://imgur.com/* and https://resmim.net/* allows the background service worker to fetch supported image viewer pages and extract direct image URLs, including supported albums and galleries. Requests to these third-party viewer pages omit credentials. This access is necessary to display the images linked in Ekşisözlük entries.
+
+Remote code:
+Select "No, I am not using remote code."
+
+If the dashboard still presents a required explanation field:
+All JavaScript executed by the extension is included in the extension package. Remote requests retrieve image files and image viewer HTML only. The extension extracts image URLs and metadata from those responses; it does not execute remote scripts, evaluate downloaded code, or load remotely hosted executable modules.
+
+Data usage:
+The reviewed 1.0.0 source has no analytics, tracking code, developer-operated collection endpoint, persistent storage of browsing activity, or Cookies/History API access. It processes links in Ekşisözlük entries to display previews. Image and viewer hosts receive ordinary network requests, including the user's IP address and requested resource URL. Same-origin Ekşi viewer requests use the browser's existing session credentials. Third-party viewer fetches omit credentials.
+Review the dashboard's data category definitions against this behavior and ensure any privacy policy agrees. Read and complete the required data-use certifications yourself.
+
+STORE LISTING
+
+Language: Turkish
+Category: Tools
+Store icon: icons/icon-v3-128.png (128 x 128 PNG)
+Screenshot: upload at least one actual view of the extension in use. The dashboard accepts 1280 x 800 or 640 x 400 JPEG or 24-bit PNG with no alpha. The open listing already showed one screenshot when inspected.
+
+Suggested detailed description:
+Ekşisözlük Görsel, Ekşisözlük entry’lerindeki görsel bağlantılarını sayfa içinde önizleme olarak gösterir. Fotoğrafları görmek için bağlantıları tek tek açmanıza gerek kalmadan okumaya devam edebilirsiniz.
+
+EkşiUpload, ImgBB, Imgur ve Resmim bağlantılarının yanı sıra doğrudan görsel bağlantılarını da destekler. Görseller, sayfayı kaydırdıkça otomatik olarak yüklenir.
+
+• Görselleri entry içinde görüntüleyin.
+• Imgur albüm ve galerilerindeki fotoğraflara göz atın.
+• Önizlemeye tıklayarak görseli yeni sekmede açın.
+• Sayfadaki düğme veya eklenti simgesi üzerinden önizlemeleri gizleyip yeniden gösterin.
+
+Eklenti yalnızca Ekşisözlük sayfalarında çalışır. Analitik veya takip kodu içermez. Görseller, ilgili görsel barındırma hizmetlerinden yüklenir.
+
+Silinmiş, özel veya erişimi engellenmiş görseller görüntülenemeyebilir.
+
+PUBLISHER SETTINGS
+
+Enter the publisher contact email you want to use, start verification, and complete verification through the email Google sends. The signed-in account email does not by itself satisfy the publisher contact-email field.
+
+Save the draft after completing the listing and Privacy fields. Open "Why can't I submit?" again to see the current remaining requirements.
+
+Official guidance:
+https://developer.chrome.com/docs/webstore/cws-dashboard-privacy
+https://developer.chrome.com/docs/webstore/cws-dashboard-listing
+https://developer.chrome.com/docs/webstore/images

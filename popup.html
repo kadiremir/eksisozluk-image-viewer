@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ekşisözlük Görsel</title>
+  <link rel="stylesheet" href="popup.css">
+  <script src="popup.js" defer></script>
+</head>
+<body>
+  <main class="panel">
+    <header>
+      <span class="icon-wrap"><img src="icons/icon-v3-48.png" width="40" height="40" alt=""></span>
+      <span class="brand">
+        <span class="eyebrow">EKŞİSÖZLÜK EKLENTİSİ</span>
+        <h1>Ekşisözlük Görsel</h1>
+      </span>
+    </header>
+    <section class="content" aria-live="polite">
+      <p id="status" role="status">Bu sayfa kontrol ediliyor…</p>
+      <button id="toggle" type="button" hidden></button>
+      <p class="hint" id="hint">Fotoğraflar sayfayı kaydırdıkça otomatik yüklenir. Bu ayar yalnızca açık sayfa için geçerlidir.</p>
+      <a id="open-site" href="https://eksisozluk.com/" target="_blank" rel="noopener noreferrer" hidden>Ekşisözlük’ü aç <span aria-hidden="true">↗</span></a>
+    </section>
+    <footer><span>Kadir Emir</span><span>2026</span><span>v1.0.0</span></footer>
+  </main>
+</body>
+</html>

@@ -1,0 +1,108 @@
+{
+  "surveyDate": "2026-10-28",
+  "topic": "https://eksisozluk.com/anin-fotografi--6459985",
+  "filter": "a=caylaklar",
+  "pageRangeInclusive": [750, 799],
+  "pagesRead": 50,
+  "entriesRead": 500,
+  "method": "Read entry content DOM in the existing signed-in Chrome session; followed the site's previous-page links in a separate tab. Collected explicit HTTP(S) URLs in entry text and absolute anchor hrefs; deduplicated within each entry.",
+  "imageHostUrlCount": 500,
+  "otherMediaUrlCount": 7,
+  "allCollectedExternalUrlsWerePlainText": true,
+  "limitations": "Counts describe URLs found in entries, not successfully loaded images or the number of images within albums. Destination availability and resolver extraction rules have not been verified. Examples are a subset of collected URLs.",
+  "imageHosts": [
+    {
+      "host": "ibb.co",
+      "count": 451,
+      "uniqueUrls": 451,
+      "handling": "Image viewer resolver",
+      "examples": [
+        {"url": "https://ibb.co/zTKNVYLB", "page": 799, "entry": "187418486"},
+        {"url": "https://ibb.co/Qvs0WKCB", "page": 799, "entry": "187418559"},
+        {"url": "https://ibb.co/0jQ7nLND", "page": 799, "entry": "187418597"}
+      ]
+    },
+    {
+      "host": "i.ibb.co",
+      "count": 28,
+      "uniqueUrls": 28,
+      "handling": "Direct images; existing classifier can recognize these once plain-text URL detection is added",
+      "examples": [
+        {"url": "https://i.ibb.co/RGJWFqxr/20261027.jpg", "page": 796, "entry": "187406987"},
+        {"url": "https://i.ibb.co/tMFMc0Zq/20261026.jpg", "page": 794, "entry": "187379307"},
+        {"url": "https://i.ibb.co/84SH23VH/20261026.jpg", "page": 794, "entry": "187384386"}
+      ]
+    },
+    {
+      "host": "imgur.com",
+      "count": 10,
+      "uniqueUrls": 10,
+      "handling": "All observed links use /a/ album paths. Support album-aware resolution, including optional image fragments.",
+      "examples": [
+        {"url": "https://imgur.com/a/dtVBaFi", "page": 798, "entry": "187415230"},
+        {"url": "https://imgur.com/a/vDoJut3", "page": 791, "entry": "187358658"},
+        {"url": "https://imgur.com/a/tebIj6n", "page": 784, "entry": "187326902"},
+        {"url": "https://imgur.com/a/vptGZQJ", "page": 770, "entry": "187193496"},
+        {"url": "https://imgur.com/a/lS2ilbX#3s64ldz", "page": 769, "entry": "187183777"},
+        {"url": "https://imgur.com/a/ZgmyiA3", "page": 766, "entry": "187146021"},
+        {"url": "https://imgur.com/a/RFZDNXo", "page": 762, "entry": "187092424"},
+        {"url": "https://imgur.com/a/617Hl1U", "page": 756, "entry": "187049609"},
+        {"url": "https://imgur.com/a/SZ4YkjX", "page": 754, "entry": "187036694"},
+        {"url": "https://imgur.com/a/l92weyf", "page": 751, "entry": "187018468"}
+      ]
+    },
+    {
+      "host": "imagevisit.com",
+      "count": 5,
+      "uniqueUrls": 5,
+      "handling": "Image viewer resolver",
+      "examples": [
+        {"url": "https://imagevisit.com/image/mBy9Vs", "page": 794, "entry": "187385222"},
+        {"url": "https://imagevisit.com/image/m5JgDS", "page": 779, "entry": "187283428"},
+        {"url": "https://imagevisit.com/image/m07w9l", "page": 770, "entry": "187186113"}
+      ]
+    },
+    {
+      "host": "resmim.net",
+      "count": 3,
+      "uniqueUrls": 3,
+      "handling": "Image viewer resolver; support both /i/ID and /i/name.ID forms",
+      "examples": [
+        {"url": "https://resmim.net/i/1000246316.HXzfNj", "page": 788, "entry": "187345533"},
+        {"url": "https://resmim.net/i/1000246306.HXzNSD", "page": 788, "entry": "187345533"},
+        {"url": "https://resmim.net/i/HfBS6T", "page": 757, "entry": "187055885"}
+      ]
+    },
+    {
+      "host": "i.supaimg.com",
+      "count": 2,
+      "uniqueUrls": 2,
+      "handling": "Direct JPEG images; existing classifier can recognize these once plain-text URL detection is added",
+      "examples": [
+        {"url": "https://i.supaimg.com/2c53942a-c15e-4cae-b572-398f48017388/c410d9f3-67c2-46a2-8838-42973bb94cdb.jpg", "page": 782, "entry": "187305004"},
+        {"url": "https://i.supaimg.com/2c53942a-c15e-4cae-b572-398f48017388/d0a8aea2-9248-4939-a417-4b8948a392d8.jpg", "page": 780, "entry": "187296369"}
+      ]
+    },
+    {
+      "host": "aninfotografi.online",
+      "count": 1,
+      "uniqueUrls": 1,
+      "handling": "Custom photo-page candidate; inspect destination before designing resolver",
+      "examples": [
+        {"url": "https://aninfotografi.online/p/214085a045813f89", "page": 759, "entry": "187072231"}
+      ]
+    }
+  ],
+  "otherMediaHosts": [
+    {"host": "youtu.be", "count": 2},
+    {"host": "music.youtube.com", "count": 2},
+    {"host": "www.youtube.com", "count": 2},
+    {"host": "open.spotify.com", "count": 1}
+  ],
+  "implementationImplications": [
+    "Detect supported URLs in entry text nodes as well as HTML anchors. The existing anchor-only scanner misses all collected external URLs in this sample.",
+    "Prioritize ImgBB viewer resolution and plain-text direct-image support: ImgBB viewer and direct links together account for 479 of 500 image-host URLs (95.8%).",
+    "Use host-specific resolvers for ImageVisit and Resmim, and album-aware handling for Imgur.",
+    "Retain original entry text and URLs, and preserve graceful fallback when a destination is unavailable."
+  ]
+}
